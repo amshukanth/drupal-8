@@ -1,0 +1,40 @@
+agilecrm_module:
+  version: VERSION
+  js:
+    js/agilecrm_module.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+agilecrm_module.debug:
+  version: VERSION
+  js:
+    js/agilecrm_module.debug.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+agilecrm_module.admin:
+  version: VERSION
+  js:
+    js/agilecrm_module.admin.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+agilecrm_module.test:
+  version: VERSION
+  js:
+    src/Tests/GoogleAnalyticsJavaScriptTest.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+agilecrm_module.icons:
+  version: VERSION
+  css:
+    theme:
+      css/agilecrm_module.icons.css: {}

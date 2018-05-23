@@ -1,0 +1,4 @@
+agilecrm_module.admin_settings_form_tab:
+  route_name: agilecrm_module.admin_agilecrm
+  title: Settings
+  base_route: agilecrm_module.admin_agilecrm

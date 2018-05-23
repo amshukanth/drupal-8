@@ -1,0 +1,18 @@
+name: 'Agile CRM'
+type: module
+description: 'Agile CRM is an all-in-one, affordable and next-gen Customer Relationship Management (CRM) software with marketing, sales and service automation, built with love for small businesses..'
+package: Statistics
+# version: VERSION
+# core: 8.x
+configure: agilecrm_module.admin_agilecrm
+test_dependencies:
+  - php:php
+  - token:token
+
+# Information added by Drupal.org packaging script on 2016-08-09
+version: '8.x-2.1'
+core: '8.x'
+project: 'agilecrm_module'
+datestamp: 1470779958
+dependencies:
+  - ckeditor

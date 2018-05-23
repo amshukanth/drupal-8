@@ -1,0 +1,19 @@
+/**
+ * @file
+ * Styling for the user module icons.
+ */
+
+/**
+ * Toolbar tab icon.
+ */
+.toolbar-icon-agilecrm-module-admin-agilecrm:before {
+  background-image: url(../images/agile-logo.svg);
+}
+
+.toolbar-icon-agilecrm-module-admin-agilecrm:active:before,
+.toolbar-icon-agilecrm-module-admin-agilecrm.active:before {
+  background-image: url(../images/agile-logo.svg);
+}
+.your-custom-class {
+    margin-left: 0px;
+}

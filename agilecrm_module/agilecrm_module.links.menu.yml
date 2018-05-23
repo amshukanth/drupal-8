@@ -1,0 +1,63 @@
+agilecrm_module.admin_agilecrm:
+  title: 'Agile CRM'
+  parent: system.admin
+  description: 'Agile CRM is an all-in-one, affordable and next-gen Customer Relationship Management (CRM) software with marketing, sales and service automation, built with love for small businesses..'
+  route_name: agilecrm_module.admin_agilecrm
+  weight: -10
+agilecrm_module.home:
+  title: 'Home'
+  description: 'Home'
+  route_name: agilecrm_module.home
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -9
+agilecrm_module.webrules:
+  title: 'Web Rules'
+  description: 'Web Rules'
+  route_name: agilecrm_module.webrules
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -8
+agilecrm_module.formbuilder:
+  title: 'Form Builder'
+  description: 'Form Builder'
+  route_name: agilecrm_module.formbuilder
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -7
+agilecrm_module.landingpages:
+  title: 'Landing Pages'
+  description: 'Landing Pages'
+  route_name: agilecrm_module.landingpages
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -6
+agilecrm_module.emailcampaigns:
+  title: 'Email Campaigns'
+  description: 'Email Campaigns'
+  route_name: agilecrm_module.emailcampaigns
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -5
+agilecrm_module.webstats:
+  title: 'Web Stats'
+  description: 'Web Stats'
+  route_name: agilecrm_module.webstats
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -4
+agilecrm_module.referafriend:
+  title: 'Refer a Friend'
+  description: 'Refer a Friend'
+  route_name: agilecrm_module.referafriend
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -3
+agilecrm_module.settings:
+  title: 'Settings'
+  description: 'Settings'
+  route_name: agilecrm_module.settings
+  menu_name: admin
+  parent: agilecrm_module.admin_agilecrm
+  weight: -2
+  

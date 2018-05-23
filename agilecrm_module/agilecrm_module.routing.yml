@@ -1,0 +1,88 @@
+agilecrm_module.admin_agilecrm:
+  path: '/admin/agilecrm'
+  defaults:
+    _title: 'Aglie CRM'
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::home'
+  requirements:
+     _permission: 'access administrator pages'
+agilecrm_module.home:
+  path: '/admin/agilecrm'
+  defaults:
+    _title: 'Home'
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::home'    
+  requirements:
+    _permission: 'access administrator pages'
+agilecrm_module.webrules:
+  path: '/admin/agilecrm/webrules'
+  defaults:
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::webrules' 
+    _title: 'Web Rules'
+  requirements:
+     _permission: 'access administrator pages'
+agilecrm_module.formbuilder:
+  path: '/admin/agilecrm/formbuilder'
+  defaults:
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::formbuilder' 
+    _title: 'Form Builder'
+  requirements:
+     _permission: 'access administrator pages'
+agilecrm_module.landingpages:
+  path: '/admin/agilecrm/landingpages'
+  defaults:
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::landingpages' 
+    _title: 'Landing Pages'
+  requirements:
+     _permission: 'access administrator pages'
+agilecrm_module.emailcampaigns:
+  path: '/admin/agilecrm/emailcampaigns'
+  defaults:
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::emailcampaigns' 
+    _title: 'Email Campaigns'
+  requirements:
+     _permission: 'access administrator pages'
+agilecrm_module.webstats:
+  path: '/admin/agilecrm/webstats'
+  defaults:
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::webstats'
+    _title: 'Web Stats'
+  requirements:
+    _permission: 'access administrator pages'
+agilecrm_module.referafriend:
+  path: '/admin/agilecrm/referafriend'
+  defaults:
+    _controller: '\Drupal\agilecrm_module\Controller\AgilecrmModuleController::referafriend'
+    _title: 'Refer a Friend'
+  requirements:
+    _permission: 'access administrator pages'
+agilecrm_module.settings:
+  path: '/admin/agilecrm/settings'
+  defaults:
+    _form: '\Drupal\agilecrm_module\Form\AgilecrmModuleAdminSettingsForm'
+    _title: 'Settings'
+  requirements:
+   _permission: 'access administrator pages'
+agilecrm_module.image_dialog:
+  path: '/agilecrm_module/dialog/image/{filter_format}'
+  defaults:
+    _form: '\Drupal\agilecrm_module\Form\EditorImagePopupDialog'
+    _title: 'Form Builder'
+  options:
+    _theme: ajax_base_page
+  requirements:
+    _entity_access: 'filter_format.use'
+agilecrm_module.landingpage_dialog:
+  path: '/agilecrm_module/dialog/landingpage/{filter_format}'
+  defaults:
+    _form: '\Drupal\agilecrm_module\Form\EditorLandingPopupDialog'
+    _title: 'Landing Page'
+  options:
+    _theme: ajax_base_page
+  requirements:
+    _entity_access: 'filter_format.use'
+agilecrm_module.form:
+ path: '/agilecrm_module/myform'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\agilecrm_module\Form\WebrulesForm'
+ requirements:
+    _permission: 'access administrator pages'
